@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #002451;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.modal-content {
+    background-color: #001228;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20% auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: -3px -2px 11px 16px rgba(0, 0, 0, 0.5);
+}
+
+.styled-text {
+    color: white;
+    font-size: xx-large;
+}
+
+.content {
+    height: 80%;
+    width: 25%;
+    background-color: #002451;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    white-space: pre-wrap;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: -20px -8px 20px 20px rgba(0, 0, 0, 0.45), -20px -6px 20px 20px rgba(0, 0, 0, 0.45);
+}
+
+#hello {
+    transition: all 5s ease;
+    color: #002451;
+    cursor: default;
+    font-size: 25px;
+}
+
+.head {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10%;
+}
+
+#search {
+    height: 90%;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.clear {
+    height: 100%;
+    width: 20%;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+input[type="button"] {
+    padding: 10px;
+    margin: 3px 28px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: -5px -1px 2px 1px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+input[type="button"]::value {
+    color: white;
+}
+
+.body {
+    height: 68%;
+    width: 80%;
+    margin-bottom: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid black;
+}
